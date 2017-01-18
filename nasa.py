@@ -27,20 +27,27 @@ curiosity_sol = round((earth_day_time * earth_days) / mars_day_time)
 
 #Specifying camera to be used
 
-# FHAZ	    Front Hazard Avoidance Camera
-# RHAZ	    Rear Hazard Avoidance Camera
+# FHAZ	       Front Hazard Avoidance Camera
+# RHAZ	       Rear Hazard Avoidance Camera
 # CHEMCAM	Chemistry and Camera Complex
-# MAHLI	    Mars Hand Lens Imager
-# MARDI	    Mars Descent Imager
+# MAHLI	Mars Hand Lens Imager
+# MARDI	Mars Descent Imager
 # NAVCAM	Navigation Camera
 # PANCAM	Panoramic Camera
 # MINITES	Miniature Thermal Emission Spectrometer (Mini-TES)
-# default:  all
+# default:    all
 
-cam_selected = "fhaz"
-DEMO_KEY = "Oqld3t76eHTHvwRkmgnig8sZ4fywIYJsw8qfEDkJ"
+#Specify rover to be used 
 
-link = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol="+str(curiosity_sol)+"&camera="+\
+#curiosity
+#opportunity
+#spirit
+
+cam_selected = "fhaz"                  #enter camera you want to use, fhaz is selected as default.
+DEMO_KEY = ""                          #enter demo key.
+rover_selected = "curiosity"           #enter rover you want to use, curiosity is selected as default.
+
+link = "https://api.nasa.gov/mars-photos/api/v1/rovers/"+rover_selected+"/photos?sol="+str(curiosity_sol)+"&camera="+\
        cam_selected+"&api_key="+DEMO_KEY
 
 def get_page(url):
@@ -87,7 +94,6 @@ for image in outlinks_of_images:
     pic_num+=1
 
 ########################################################################
-
 
 url = "https://geoiptool.com"
 
