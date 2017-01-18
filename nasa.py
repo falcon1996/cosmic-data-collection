@@ -35,7 +35,7 @@ curiosity_sol = round((earth_day_time * earth_days) / mars_day_time)
 # NAVCAM	       Navigation Camera
 # PANCAM	       Panoramic Camera
 # MINITES	       Miniature Thermal Emission Spectrometer (Mini-TES)
-# default:           all
+# default:            all
 
 #Specify rover to be used 
 
