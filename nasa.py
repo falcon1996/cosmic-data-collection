@@ -30,12 +30,12 @@ curiosity_sol = round((earth_day_time * earth_days) / mars_day_time)
 # FHAZ	              Front Hazard Avoidance Camera
 # RHAZ	              Rear Hazard Avoidance Camera
 # CHEMCAM	       Chemistry and Camera Complex
-# MAHLI	       Mars Hand Lens Imager
-# MARDI	       Mars Descent Imager
+# MAHLI	              Mars Hand Lens Imager
+# MARDI	                Mars Descent Imager
 # NAVCAM	       Navigation Camera
 # PANCAM	       Panoramic Camera
 # MINITES	       Miniature Thermal Emission Spectrometer (Mini-TES)
-# default:            all
+# default:             all
 
 #Specify rover to be used 
 
