@@ -5,3 +5,5 @@ Also takes real time pictures of location of user using the location of their IP
 To get a key for using cosmic-data-collection : https://api.nasa.gov/#getting-started
 
 For other updates on Curiosity mission : http://mars.nasa.gov/msl/mission/mars-rover-curiosity-mission-updates/
+
+Website used for obtaining user location : https://geoiptool.com 
